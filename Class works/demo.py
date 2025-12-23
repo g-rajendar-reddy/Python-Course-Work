@@ -1,1 +1,1 @@
-print("Class works demo file")
+print("class works demo files")
