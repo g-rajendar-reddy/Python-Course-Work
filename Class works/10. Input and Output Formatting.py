@@ -83,3 +83,59 @@ print("Password: ",Password)
 
 # Output Formatting:
 
+# 1. Basic Examples of print()
+# a) Printing Text
+print("Hello, World!")    # Output: Hello, World!
+
+# b) Printing Multiple Items
+a = 10
+b = 2.6
+c = "raju"
+print('a:',a, 'b:',b, 'c:',c)               # Output: a: 10 b: 2.6 c: raju
+
+# c) Using sep to Change the Separator
+print('a:',a, 'b:',b, 'c:',c , sep='---->')      # Output: a:---->10---->b:---->2.6---->c:---->raju
+
+# d) Using end to Control Line Endings
+print('a:',a, 'b:',b, 'c:',c , end=' <== THE END')  # Output: a: 10 b: 2.6 c: raju <== THE END
+
+# 2. Printing Special Characters   
+# a) Newline (\n)
+print("Hello,\nWorld!")    # Output: Hello,
+                           #         World!
+# b) Tab (\t)
+print("Hello,\tWorld!")    # Output: Hello,   World!            
+
+# Output Formatting
+# 1. Using Commas (Simple Print Method)
+name = "Raju"
+age = 25
+print("Name:", name, "Age:", age)  # Output: Name: Raju Age: 25 
+
+# 2. Using Modulo Operator (% Formatting)
+name = "Raju"
+age = 25
+print("Name: %s, Age: %d" % (name, age)) # Output: Name: Raju, Age: 25 
+
+# 3. Using f-strings (Formatted String Literals) — Python 3.6+
+name = "Raju"
+age = 25
+score = 92.389
+print(f'Name:{name} , Age:{age} , Score:{score:.2f}')  # Output: Name:Raju , Age:25 , Score:92.389
+
+# 4. Using str.format() Method
+name = "Raju"
+age = 25
+family = {'father':'Venkat Reddy', 'mother':'Jyothi'}
+print("Name: {}, Age: {}, Family: {}".format(age, name, family)) # Output: Name: 25, Age: Raju, Family: {'father': 'Venkat Reddy', 'mother': 'Jyothi'}
+
+
+
+
+
+
+
+
+
+
+
