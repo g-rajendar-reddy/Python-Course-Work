@@ -75,13 +75,13 @@ print("Account Stats: Followers - {}, Following - {}, Posts - {}, Reels - {}".fo
 Output:
 Enter Followers Count: 712
 Enter Following Count: 587
-Enter Average Watch Time per Reel (seconds): 23
+Enter Average Watch Time per Reel (seconds): 28
 Enter Username: hampy_reddy8883
 Enter Name: Rajendar Reddy
-Enter Instagram Features (comma-separated): Reels, Stories, Posts, Live, Direct Messages      
+Enter Instagram Features (comma-separated): Reels,Stories,Posts,Live,DMs,Highlights
 Enter Number of Posts: 20
 Enter Number of Reels: 2
-Enter Interaction Types (comma-separated): Likes, Comments, Shares, Saves, Views
+Enter Interaction Types (comma-separated): Likes,Comments,Shares,Saves,Views
 Enter your username: hampy_reddy8883
 Enter your full name: Gajjela Rajendar Reddy
 Enter your age: 25
@@ -94,14 +94,14 @@ Is the account verified? (yes/no): yes
 --- Instagram Account Details ---
 
 Username, Name, Followers, Following:, hampy_reddy8883, Rajendar Reddy, 712, 587
-Instagram Average Watch Time per Reel (seconds): 23.00
+Instagram Average Watch Time per Reel (seconds): 28.00
 Username: hampy_reddy8883
 Name: Rajendar Reddy
 Followers: 712
 Following: 587
-Instagram Features: ['Reels', ' Stories', ' Posts', ' Live', ' Direct Messages']
+Instagram Features: ['Reels', 'Stories', 'Posts', 'Live', 'DMs', 'Highlights']
 Content Details (Posts, Reels): (20, 2)
-Interaction Types: {' Shares', ' Saves', 'Likes', ' Views', ' Comments'}
+Interaction Types: {'Shares', 'Comments', 'Saves', 'Likes', 'Views'}
 Verified Account: True
 User Profile: Username - hampy_reddy8883, Full Name - Gajjela Rajendar Reddy, Age - 25
 Account Stats: Followers - 712, Following - 587, Posts - 20, Reels - 2
