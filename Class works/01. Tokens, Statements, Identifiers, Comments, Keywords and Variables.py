@@ -6,7 +6,7 @@
 # 5. Punctuators – Symbols like (), {}, [], ,, :,. used for syntax structuring.
 
 # This program calculates the area of a rectangle
-length = 10
+length = 10 
 width = 5
 area = length * width
 if area > 30:
